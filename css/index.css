@@ -45,7 +45,7 @@ body {
     text-align: center;
   }
   
-  //*.connect-links {
+  .connect-links {
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -58,7 +58,7 @@ body {
     font-size: 18px;
   }
 
-  .connect-links a i {
+  //*.connect-links a i {
     margin-right: 8px;
   }
   *//
