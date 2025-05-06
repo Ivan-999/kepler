@@ -53,12 +53,7 @@ body {
   }
   
   .connect-links a {
-    color: white;
-    text-decoration: none;
+    color: white;    
     font-size: 18px;
   }
 
-  //*.connect-links a i {
-    margin-right: 8px;
-  }
-  *//
