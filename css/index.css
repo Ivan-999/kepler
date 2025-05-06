@@ -35,12 +35,12 @@ body {
     color: #0f0f0f;
   }
 
-  .experience {
+  #Experience {
     padding: 20px;
     background-color: #099981;
   }
 
-  .сonnect {
+  #Connect {
     padding: 20px;
-    background-color: #9ec47c;
+    background-color: #4e6b66;
   }
