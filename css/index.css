@@ -8,11 +8,7 @@ body {
     margin-bottom: 40px; 
     padding: 20px;
   }
-
-  .centered-section {
-    text-align: center;
-  }
-
+  
   h1 {
     background-color: #f14822;
     font-size: 40px;
@@ -35,12 +31,12 @@ body {
     color: #0f0f0f;
   }
 
-  .experience {
+  #Experience {
     padding: 20px;
     background-color: #099981;
   }
 
-  .сonnect {
+  #Connect {
     padding: 20px;
-    background-color: #9ec47c;
+    background-color: #4e6b66;
   }
