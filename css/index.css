@@ -36,6 +36,8 @@ body {
   #Experience {
     padding: 20px;
     background-color: #099981;
+
+    display: flex;
   }
 
   .experience-block {
