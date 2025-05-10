@@ -9,12 +9,10 @@ body {
     padding: 20px;
   }
 
-  .centered-section {
-    text-align: center;
-  }
+  
 
   h1 {
-    background-color: #f14822;
+    background-color: #b1ec79;
     font-size: 40px;
     font-weight: bold;
     color: #22384e;
@@ -35,12 +33,55 @@ body {
     color: #0f0f0f;
   }
 
-  .experience {
+  #Experience {
     padding: 20px;
     background-color: #099981;
+
+    display: flex;
   }
 
-  .сonnect {
+  .experience-block {
     padding: 20px;
-    background-color: #9ec47c;
+    background-color: #89b3ac;
+    color: rgb(247, 240, 240);
+    font-family: Arial, sans-serif;
+    margin: 20px;
   }
+  
+  .experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .job-title {
+    font-size: 24px;
+    margin: 0;
+  }
+
+  .experience-list {
+    padding-left: 20px;
+    line-height: 1.6;
+    list-style-type: disc;
+  }
+
+  #Connect {
+    padding: 20px;
+    background-color: #4e6b66;
+    color: white;
+    text-align: center;
+  }
+  
+  .connect-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+  }
+  
+  .connect-links a {
+    color: white;    
+    font-size: 18px;
+  }
+
