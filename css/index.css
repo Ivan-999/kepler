@@ -1,3 +1,6 @@
+
+/* First style- desctop */
+
 body {
     background-color: rgb(87, 191, 226); 
     color: black;
@@ -33,6 +36,8 @@ body {
     color: #0f0f0f;
   }
 
+/* Experience - section */
+
   #Experience {
     padding: 20px;
     background-color: #099981;
@@ -66,6 +71,8 @@ body {
     list-style-type: disc;
   }
 
+/* Connect - section */
+
   #Connect {
     padding: 20px;
     background-color: #4e6b66;
@@ -85,3 +92,71 @@ body {
     font-size: 18px;
   }
 
+/* Second style- Tablet (500px - 1000px) */
+
+@media (max-width: 1000px) {
+  h1 {
+    background-color: #b1ec79;
+    font-size: 30px;
+    font-weight: bold;
+    color: #22384e;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #283c50;
+    margin-bottom: 10px;
+  }
+
+  .experience-list {
+    padding-left: 10px;
+      }
+
+  #Experience {
+    flex-direction: column;
+      }
+
+  #Connect {
+        flex-direction: column;
+      }
+
+}
+
+
+/* Third style- Mobile (500px) */
+
+@media (max-width: 500px) {
+  h1 {
+    background-color: #b1ec79;
+    font-size: 25px;
+    font-weight: bold;
+    color: #22384e;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #283c50;
+     }
+
+  .experience-list {
+    padding-left: 5px;
+      }
+   .experience-block {
+      padding: 15px;
+       margin: 10px 0;
+      }
+
+  #Experience {
+    flex-direction: column;
+      }
+
+  #Connect {
+       flex-direction: column;
+      }
+
+}
