@@ -92,6 +92,14 @@ body {
     font-size: 18px;
   }
 
+  /* Skills - section */
+
+  .skills-list {
+    display: flex;
+    }
+  
+
+
 /* Second style- Tablet (500px - 1000px) */
 
 @media (max-width: 1000px) {
@@ -122,6 +130,10 @@ body {
   #Connect {
         flex-direction: column;
       }
+
+      .skill-list{
+        flex-direction: column;
+           }
 
 }
 
@@ -158,5 +170,8 @@ body {
   #Connect {
        flex-direction: column;
       }
+      .skill-list{
+       flex-direction: column;
+          }
 
 }
